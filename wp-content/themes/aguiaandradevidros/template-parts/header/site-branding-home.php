@@ -18,8 +18,8 @@ $header_class = $show_title ? 'site-title' : 'screen-reader-text';
 <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
 	<?php if ( has_custom_logo() && $show_title ) : ?>
 	<div class="site-logo">
-    <img class="logoHome logoPadrao" src="<?php bloginfo('template_directory'); ?>/imagens/0_logo.png"/>
-    <img class="logoHome logoSuspensa" src="<?php bloginfo('template_directory'); ?>/imagens/0_logo_clara.png"/>
+    <img class="logoHome logoPadrao" src="<?php bloginfo('template_directory'); ?>/imagens/logo.png"/>
+    <img class="logoHome logoSuspensa" src="<?php bloginfo('template_directory'); ?>/imagens/logo.png"/>
     </a>
     <!-- <img class="logoHome" /> -->
     </div>
